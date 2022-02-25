@@ -16,7 +16,7 @@ main{
     /* opacity: 0.5; */
 }
 .box{
-    max-width: 500px;
+    max-width: 40%;
     margin: 15% auto auto auto;
     left: 15%;
     right: 15%;
@@ -27,7 +27,6 @@ main{
     padding: 20px;
     display: grid;
     height: fit-content;
-    position: fixed;
 }
 
 button{
