@@ -2,6 +2,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 main{
@@ -15,9 +16,10 @@ main{
     /* opacity: 0.5; */
 }
 .box{
-    width: 30%;
-    height: 150px;
+    max-width: 500px;
     margin: 15% auto auto auto;
+    left: 15%;
+    right: 15%;
     background-color: #fff;
     opacity: 0.9;
     text-align: center;
@@ -25,10 +27,11 @@ main{
     padding: 20px;
     display: grid;
     height: fit-content;
+    position: fixed;
 }
 
 button{
-    width: 80px;
+    width: 85px;
     height: 30px;
     margin: auto;
     background-color: rgb(49, 0, 61);
