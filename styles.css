@@ -15,18 +15,23 @@ main{
     height: 100vh;
     /* opacity: 0.5; */
 }
+
+#box-container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .box{
-    max-width: 40%;
-    margin: 15% auto auto auto;
-    left: 15%;
-    right: 15%;
     background-color: #fff;
     opacity: 0.9;
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
-    display: grid;
     height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 40px;
 }
 
 button{
